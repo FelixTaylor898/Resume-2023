@@ -11,13 +11,16 @@
 
 .default-nav {
     background-color: #d5ecff;
+    box-shadow: 0 0 5px 5px lightblue;
 }
 
 .center {
     border-radius: 25px;
     margin: auto;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px 5px lightblue;
+
 }
 
 p {
@@ -45,12 +48,12 @@ p {
     flex-grow: 1;
 }
 
-footer p {
+footer>p {
     text-align: center;
-    margin-top: 20px;
 }
 
 footer {
+    box-shadow: 0 0 5px 5px lightblue;
     margin-bottom: -50px;
     left: 0;
     bottom: 0;
