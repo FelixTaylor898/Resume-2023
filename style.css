@@ -1,25 +1,31 @@
 .bg {
-    background-Color : #103447;
+    background-Color: #103447;
     background-image: url('https://media.istockphoto.com/id/1194847059/vector/abstract-binary-background-for-hackathon-and-other-digital-events-fallen-zero-numbers-with.jpg?s=612x612&w=0&k=20&c=yNqI8nhsG2aJ-EvI2ygJiGCiKOhxiG8OE5dK9AgKNKg=');
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .navbar a {
     font-weight: bold;
     color: black;
 }
+
 .default-nav {
     background-color: #d5ecff;
 }
+
 .center {
     border-radius: 25px;
     margin: auto;
     padding: 10px;
+    margin-bottom: 10px;
 }
+
 p {
     text-align: justify;
     text-justify: inter-word;
     font-size: large;
 }
+
 .flex-container {
     margin-top: 20px;
     display: flex;
@@ -29,23 +35,27 @@ p {
     padding: 15px;
     gap: 5px;
 }
-.flex-container > div{
+
+.flex-container>div {
     border-radius: 5px;
     padding: 8px;
 }
+
 .item2 {
-    flex-grow:1;
+    flex-grow: 1;
 }
+
 footer p {
     text-align: center;
-    margin-top:5px;
+    margin-top: 20px;
 }
+
 footer {
-    position: fixed;
+    margin-bottom: -50px;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #d5ecff;
     color: rgb(0, 0, 0);
     text-align: center;
-  }
+}
